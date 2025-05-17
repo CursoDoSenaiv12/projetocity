@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\junin\\Desktop\\Projetocity\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{88FE692C-3027-414A-9AD3-A6C81954AA97}|Projetocity\\Projetocity.csproj|c:\\users\\junin\\desktop\\projetocity\\projetocity\\repositorio\\produtorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88FE692C-3027-414A-9AD3-A6C81954AA97}|Projetocity\\Projetocity.csproj|solutionrelative:projetocity\\repositorio\\produtorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{88FE692C-3027-414A-9AD3-A6C81954AA97}|Projetocity\\Projetocity.csproj|c:\\users\\junin\\desktop\\projetocity\\projetocity\\repositorio\\loginrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88FE692C-3027-414A-9AD3-A6C81954AA97}|Projetocity\\Projetocity.csproj|solutionrelative:projetocity\\repositorio\\loginrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88FE692C-3027-414A-9AD3-A6C81954AA97}|Projetocity\\Projetocity.csproj|c:\\users\\junin\\desktop\\projetocity\\projetocity\\repositorio\\produtorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88FE692C-3027-414A-9AD3-A6C81954AA97}|Projetocity\\Projetocity.csproj|solutionrelative:projetocity\\repositorio\\produtorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88FE692C-3027-414A-9AD3-A6C81954AA97}|Projetocity\\Projetocity.csproj|c:\\users\\junin\\desktop\\projetocity\\projetocity\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -56,26 +56,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "LoginRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\junin\\Desktop\\Projetocity\\Projetocity\\Repositorio\\LoginRepositorio.cs",
               "RelativeDocumentMoniker": "Projetocity\\Repositorio\\LoginRepositorio.cs",
               "ToolTip": "C:\\Users\\junin\\Desktop\\Projetocity\\Projetocity\\Repositorio\\LoginRepositorio.cs",
               "RelativeToolTip": "Projetocity\\Repositorio\\LoginRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T02:09:45.793Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProdutoRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\junin\\Desktop\\Projetocity\\Projetocity\\Repositorio\\ProdutoRepositorio.cs",
               "RelativeDocumentMoniker": "Projetocity\\Repositorio\\ProdutoRepositorio.cs",
               "ToolTip": "C:\\Users\\junin\\Desktop\\Projetocity\\Projetocity\\Repositorio\\ProdutoRepositorio.cs",
               "RelativeToolTip": "Projetocity\\Repositorio\\ProdutoRepositorio.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAAABEAAABtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAACcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T02:10:16.539Z",
               "EditorCaption": ""

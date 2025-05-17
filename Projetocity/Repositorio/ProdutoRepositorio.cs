@@ -15,7 +15,7 @@ namespace Projetocity.Repositorio
             using (var conexao = new MySqlConnection(_conexaoMySql))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("insert into tbproduto(Nome, Descricao, Preco, quantidade) values(@nome, @descricao, @preco, @Qtd)", conexao);
+                MySqlCommand cmd = new MySqlCommand("insert into tbproduto(Nome, Descricao, Preco, quantidade) values(@nome, @descricao, @preco, @quantidade)", conexao);
                 cmd.Parameters.Add("@nome", MySqlDbType.VarChar).Value = produto.Nome;
                 cmd.Parameters.Add("@descricao", MySqlDbType.VarChar).Value = produto.Descricao;
                 cmd.Parameters.Add("@preco", MySqlDbType.Decimal).Value = produto.Preco;
@@ -56,7 +56,7 @@ namespace Projetocity.Repositorio
             using (var conexao = new MySqlConnection(_conexaoMySql))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("Select * from produtos", conexao);
+                MySqlCommand cmd = new MySqlCommand("Select * from tbproduto", conexao);
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
                 da.Fill(dt);
@@ -83,7 +83,7 @@ namespace Projetocity.Repositorio
             using (var conexao = new MySqlConnection(_conexaoMySql))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("Select * from produtos where Id = @id", conexao);
+                MySqlCommand cmd = new MySqlCommand("Select * from tdproduto where Id = @id", conexao);
                 cmd.Parameters.AddWithValue("id", id);
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
                 MySqlDataReader dr;
@@ -107,7 +107,7 @@ namespace Projetocity.Repositorio
             using (var conexao = new MySqlConnection(_conexaoMySql))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("delete from produtos where Id = @id", conexao);
+                MySqlCommand cmd = new MySqlCommand("delete from tbproduto where Id = @id", conexao);
                 cmd.Parameters.AddWithValue("id", Id);
                 int i = cmd.ExecuteNonQuery();
                 conexao.Close();
