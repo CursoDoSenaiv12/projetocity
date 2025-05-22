@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Projetocity")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9336be973b78fea7c37d93fc0ef53f859b65bc7d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b86551458d8d08d3e186a44b32b036d55a9c5d42")]
 [assembly: System.Reflection.AssemblyProductAttribute("Projetocity")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Projetocity")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
